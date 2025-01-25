@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre</title>
+    <link href="genre.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+      <a href="bookstore.html"><img src="logo.png" height="100px" width="100px"></a>
+        <div class="text">
+         <a href="bookstore.html">Home</a>
+         <a href="Booklist.html" >Book List</a>
+         <a href="popular.html" >Popular</a>
+         <a href="Contact.html" >Contact Us</a>
+         <a href="genre.html" > Genres</a>
+        </div>
+        <div class="search">
+         <input type="text" placeholder="Search Name">
+        </div>
+    </div>
+    <p class="gtext">Choose A Genre </p>
+     <div class="Content"> 
+      <div class="flex" id="flex">
+        <div class="box">
+          <p id="text" class="text"></p>
+          <img src="" id="image" class="image"></img>      
+          <p id="desc" class="desc"></p>
+        
+        </div>
+        <div class="box1">
+          <p id="text1" class="text"></p>
+          <img src="" id="image1" class="image"></img> 
+          <p id="desc1" class="desc"></p>
+        </div>
+      </div>
+        <select name="class" id="pilih">
+            <option value="0">Adventure</option>
+            <option value="1">Mind Games</option>
+            <option value="2">Detective / Criminal</option>
+            <option value="3">Death Games</option>
+            <option value="4">Psychological</option>
+        </select><br>
+        <button onclick="btn()" id="buton">klik!</button>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

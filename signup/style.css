@@ -1,0 +1,238 @@
+/* body{
+    text-align:center;
+    margin-left:500px;
+    margin-top:100px;
+    background-image: url("background.png") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.border{
+    border:double;
+    border-color:black;
+    border-radius:20px;
+    height:500px;
+    width:500px;
+    border-color:white;
+    box-shadow: 10px 5px 10px rgb(255, 255, 255);
+    
+}
+
+a{
+ color:rgb(255, 255, 255);
+ background-color:rgb(82, 185, 82);
+ font-size:20px;
+ padding-left:40px;
+ padding-right:40px;
+ border-radius:10px;
+ text-decoration:none;
+ box-shadow: 3px 3px 3px rgba(0, 144, 43, 0.852);
+
+}
+
+.e{
+    color:rgb(255, 255, 255);
+    font-family:verdana;
+    font-size:15px;
+   background-color:black;
+   background-size:auto;
+   margin-left:95px;
+   margin-right:95px;
+}
+
+text{
+    color:black;
+    
+}
+
+h2{
+    color:white;
+    font-family:doto;
+    background-color:rgb(68, 68, 68);
+    margin-left:75px;
+    margin-right:75px ;
+    font-size:30px;
+}
+
+button{
+ color:rgb(255, 255, 255);
+ background-color:rgb(82, 185, 82);
+ font-size:18px;
+ padding-left:40px;
+ padding-right:40px;
+ border-radius:10px;
+ box-shadow: 3px 3px 3px rgba(0, 144, 43, 0.852);
+
+}
+
+
+button:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 75, 0);
+    font-size:18px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:10px;
+    box-shadow: 3px 3px 3px rgba(0, 75, 0);
+   
+}
+
+a:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 75, 0);
+    font-size:18px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:10px;
+    box-shadow: 3px 3px 3px rgba(0, 75, 0);
+   
+} */
+#text1, #text2 , #text3, #text4 {
+    color:red;
+    font-family:parkinsans;
+    font-weight:500;
+    text-shadow:0px 0px 15px red;
+    font-size:20px;
+    
+}
+
+h2{
+    font-family:parkinsans;
+    color:white;
+    font-size:30px;
+    margin:30px;
+    text-align:center;
+    text-shadow:0px 0px 25px rgb(255, 255, 255);
+}
+
+
+
+    body{
+        background-image:URL("New\ Project\ \(84\).png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+        
+        
+    }
+
+.account p{
+    color:white;
+    font-family:parkinsans;
+    font-size:15px;
+    text-align:center;
+    text-shadow:0px 0px 25px rgb(255, 255, 255);
+    font-size:20px;
+}
+.account p a{
+    text-decoration:none;
+    font-family:parkinsans;
+    color:rgba(255, 0, 191, 0.749);
+    font-weight:1000;
+    font-size:20px;
+}
+
+.border{
+  background-color:rgb(63, 63, 63 , 0.6);
+  height:650px;
+  width:600px;
+  margin:30px;
+  box-shadow:0px 0px 15px lightgray;
+  border:solid black 3px;
+  border-radius:15px;
+  margin-left:400px;
+  }
+
+input{
+    width:400px;
+    height:50px;
+    background-color:rgb(49, 49, 49);
+    box-shadow:0px 0px 15px lightgray;
+    margin:20px;
+    border-radius:15px;
+    margin-left:90px;
+}
+
+input::placeholder{
+    font-family:parkinsans;
+    color:white;
+    text-align:center;
+
+}
+
+button{
+    height:30px;
+    width:400px;
+    margin-left:90px;
+    background-color:rgb(48, 48, 156);
+    font-family:parkinsans;
+    font-size:20px;
+    color:lightgray;
+    border-radius:30px;
+}
+.singupp{
+    display:flex;
+}
+.Error{
+    background-color:rgb(63, 63, 63 , 0.6);
+    margin:30px;
+    height:340px;
+    width:400px;
+    border-radius:30px;
+    border:lightgray solid 3px;
+    box-shadow:0px 0px 15px lightgray;
+
+}
+
+.Error p{
+    font-family:parkinsans;
+    color:white;
+    text-align:center;
+    text-shadow:0px 0px 5px lightgray;
+    font-size:20px;
+
+
+}
+
+.Error .title1{
+    font-size:30px;
+    font-weight:400;
+}
+
+button:hover{
+    
+        height:30px;
+        width:400px;
+        margin-left:90px;
+        background-color:rgb(29, 29, 101);
+        font-family:parkinsans;
+        font-size:20px;
+        color:lightgray;
+        border-radius:30px;
+}
+
+input{
+    color:white;
+    font-family:parkinsans;
+    
+    font-size:20px;
+}
+
+.navbar{
+    background-color:rgb(47, 47, 47);
+    height:50px;
+    width: auto;
+    text-align:center;
+    margin:25px;
+    border-radius:15px;
+    border:solid black 3px;
+    box-shadow:0px 0px 15px lightgray;
+}
+
+.navbar p{
+    text-align:center;
+    color:white;
+    font-family:parkinsans;
+    font-size:17px;
+    text-shadow:0px 0px 25px rgb(255, 255, 255);
+}

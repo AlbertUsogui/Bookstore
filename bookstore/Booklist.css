@@ -1,0 +1,227 @@
+body{
+    background-image:URL("New\ Project\ \(84\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
+}
+
+.navbar{
+    background-color:#1A1A1D;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:40px;
+    height:30px;
+    width:auto;
+    border-radius:30px;
+    justify-content:space-around;
+    position:sticky;
+    top:1px;
+    border:solid black 3px;
+    
+    
+ }
+ 
+ 
+ 
+ .text a{
+     color:#F6F5F2;
+     text-decoration:none;
+     font-family:Parkinsans;
+     gap:30px;
+     margin-left:10px;
+     margin-right:20px;
+     margin-top:10px;
+     font-size:17px;
+ 
+ }
+ 
+ a:hover{
+     color:#F6F5F2;
+     font-weight:bold;
+     font-family:Parkinsans;
+ }
+
+ .search input{
+    width: 20rem;
+    height:2rem;
+    background-color: grey;
+    border-radius:10px;
+    border:3px solid black;
+    
+}
+
+.search input::placeholder{
+    color: #F6F5F2;
+    font-family:Parkinsans;
+    padding-left:30px;
+}
+
+.navbar img{
+    margin-right:50px;
+    
+}
+
+.Book1{
+    display:flex;
+    background-color:rgb(65, 65, 65 , 0.6);
+    margin:20px;
+    padding:20px;
+    border-radius:20px;
+    border:rgb(91, 91, 91) , solid , 3px;
+    transition:transform 0.4s ease-in; 
+    gap:5px;
+    box-shadow:0px 0px 15px lightgray;
+}
+
+.Book1 img{
+    height: 300px;
+    width: 250px;
+    border-radius:10px;
+    margin-right:20px;
+    border:rgb(0, 0, 0),solid,2px;
+}
+
+.Book1 .Text .author , .Book1 .Text .Review , .Book1 .Text .Description{
+  font-family:Parkinsans;
+  font-size:15px;
+  color:lightgray;
+  text-shadow: 3px 3px black;
+}
+
+.Book1 .Text .title{
+    font-size:40px;
+    text-align:center;
+    margin-right:100px;
+    font-family:Parkinsans;
+    color:rgb(255, 255, 255);
+    font-weight:400;
+    text-shadow: 3px 3px black;
+    
+}
+
+.Book2 , .Book3 , .Book4 ,.Book5 ,.Book6 , .Book7 , .Book8  , .Book9, .Book10 {
+    display:flex;
+    background-color:rgb(65, 65, 65 , 0.6);
+    margin:20px;
+    padding:20px;
+    border-radius:20px;
+    border:rgb(91, 91, 91) , solid , 3px;
+    transition:transform 0.4s ease-in;
+    box-shadow:0px 0px 15px lightgray;
+    
+}
+
+.Book2 img, .Book3 img, .Book4 img, .Book5 img ,.Book6 img ,.Book7 img ,.Book8 img , .Book9 img, .Book10 img {
+    height: 300px;
+    width: 250px;
+    border-radius:10px;
+    margin-right:20px;
+    border:rgb(0, 0, 0),solid,2px;
+
+}
+
+.Book2 .Text .author , .Book2 .Text .Review , .Book2 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+
+.Book2 .Text .title , .Book3 .Text .title , .Book4 .Text .title , .Book5 .Text .title , .Book6 .Text .title  , .Book7 .Text .title  , .Book8 .Text .title  , .Book9 .Text .title  , .Book10 .Text .title {
+    font-size:40px;
+    text-align:center;
+    margin-right:100px;
+    font-family:Parkinsans;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    text-shadow: 3px 3px black;
+}
+
+.Book3 .Text .author , .Book3 .Text .Review , .Book3 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+
+  .Book4 .Text .author , .Book4 .Text .Review , .Book4 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+
+  .Book5 .Text .author , .Book5 .Text .Review , .Book5 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+
+  .Book1:hover , .Book2:hover , .Book3:hover , .Book4:hover , .Book5:hover ,  .Book6:hover , .Book7:hover , .Book8:hover , .Book9:hover , .Book10:hover {
+    transform: scaleY(1.03);
+   transform: scaleX(1.03);
+  }
+
+  .Book6 .Text .author , .Book6 .Text .Review , .Book6 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+  .Book7 .Text .author , .Book7 .Text .Review , .Book7 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+  .Book8 .Text .author , .Book8 .Text .Review , .Book8 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+
+  .Book9 .Text .author , .Book9 .Text .Review , .Book9 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+  }
+  .Book10 .Text .author , .Book10 .Text .Review , .Book10 .Text .Description{
+    font-family:Parkinsans;
+    font-size:15px;
+    color:lightgray;
+    text-shadow: 3px 3px black;
+    
+  }
+
+  .btn{
+    background-color: rgb(238, 206, 0);
+    font-family:parkinsans;
+    height: 50px;
+    width:150px;
+    font-size:17px;
+    border-radius:20px;
+    border:black,solid,3px;
+  } 
+
+  .btn1{
+    
+    background-color: rgb(238, 206, 0);
+    font-family:parkinsans;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:25px;
+    padding-right:25px;
+    font-size:15px;
+    border-radius:20px;
+    border:black,solid,3px;
+    text-decoration:none;
+    color:black;
+  } 
+

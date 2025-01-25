@@ -1,0 +1,162 @@
+body{
+    background-image:URL("New\ Project\ \(84\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
+}
+
+.navbar{
+    background-color:#1A1A1D;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:40px;
+    height:30px;
+    width:auto;
+    border-radius:30px;
+    justify-content:space-around;
+    position:sticky;
+    top:1px;
+    border:solid black 3px;
+    
+    
+ }
+ 
+ 
+ 
+ .text a{
+     color:#F6F5F2;
+     text-decoration:none;
+     font-family:Parkinsans;
+     gap:30px;
+     margin-left:10px;
+     margin-right:20px;
+     margin-top:10px;
+     font-size:17px;
+ 
+ }
+ 
+ a:hover{
+     color:#F6F5F2;
+     font-weight:bold;
+     font-family:Parkinsans;
+ }
+ 
+ 
+ 
+ .search input{
+     width: 20rem;
+     height:2rem;
+     background-color: grey;
+     border-radius:10px;
+     border:3px solid black;
+     
+ }
+ 
+ .search input::placeholder{
+     color: #F6F5F2;
+     font-family:Parkinsans;
+     padding-left:30px;
+ }
+ 
+ .navbar img{
+     margin-right:50px;
+     
+ }
+ 
+ h1{
+    color:white;
+    font-family: Parkinsans;
+    text-align: center;
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+    
+ }
+
+ .Book1{
+    display:flex;
+    
+    justify-content: space-evenly;
+    
+
+ }
+
+ .Book1 .B11 {
+    display:flex;
+    background-color:rgb(65, 65, 65 , 0.6);
+    margin:10px;
+    border-radius:20px;
+    gap:20px;
+    border:solid 2px lightgray;
+    transition:transform 0.4s ease-in;
+    box-shadow:0px 0px 15px lightgray;
+ }
+
+ .Book1 .B11 img{
+    height: 300px;
+    width:300px;
+    margin:10px;
+    border-radius:20px;
+    border:solid black 3px;
+    box-shadow:0px 0px 15px rgb(53, 53, 53);
+ }
+
+ .B1 p{
+    font-family:Parkinsans;
+    font-size:80px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(65, 65, 65 , 0.6);
+    padding:30px;
+    margin:10px;
+    border-radius:20px;
+    margin-top:70px;
+    text-shadow:3px 3px black;
+    border:solid 3px lightgray;
+    box-shadow:0px 0px 15px lightgray;
+    
+    
+ }
+
+ .Book1 .B11 p{
+    color:white;
+    font-family:parkinsans;
+    font-size:15px;
+    text-shadow:3px 3px black;
+ }
+
+ .Book1 .B11 .title{
+    color:white;
+    font-family:parkinsans;
+    font-size:40px;
+    font-weight:1000;
+    text-shadow:3px 3px black;
+ }
+
+ .btn1{
+    
+    background-color: rgb(238, 206, 0);
+    font-family:parkinsans;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:25px;
+    padding-right:25px;
+    font-size:15px;
+    border-radius:20px;
+    border:black,solid,3px;
+    text-decoration:none;
+    color:black;
+  } 
+
+  .Book1 .B11:hover{
+    transform: scaleY(1.02);
+   transform: scaleX(1.02);
+  }
+
+  .btn1:hover{
+    
+   background-color: rgba(26, 50, 24, 0.4);
+   
+ } 
+
