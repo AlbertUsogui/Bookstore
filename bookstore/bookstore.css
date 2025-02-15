@@ -1,12 +1,12 @@
 
 
 body{
-    background-image:URL("usogui.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position:left;
+    background-image:URL("New\ Project\ \(84\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
 }
 
 
@@ -522,3 +522,5 @@ input{
      border-width:2px;
     } */
     /* }  */
+
+  

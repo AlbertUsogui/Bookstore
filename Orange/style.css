@@ -1,0 +1,217 @@
+body{
+    background-image:URL("background.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position:left;
+}
+
+.navbar{
+    background-color:rgba(0, 30, 42, 0.7);
+    display:flex;
+    text-align:center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:40px;
+    height:30px;
+    width:auto;
+    border-radius:30px;
+    justify-content:space-around;
+    position:sticky;
+    top:1px;
+    border:solid rgb(0, 0, 0) 2px;
+    z-index:1;
+    
+ }
+ 
+ 
+ 
+ .text a{
+     color:#F6F5F2;
+     text-decoration:none;
+     font-family:Parkinsans;
+     gap:30px;
+     margin-left:10px;
+     margin-right:20px;
+     margin-top:10px;
+     font-size:17px;
+ 
+ }
+ 
+ a:hover{
+     color:#F6F5F2;
+     font-weight:bold;
+     font-family:Parkinsans;
+ }
+ 
+ 
+ 
+ .search input{
+     width: 20rem;
+     height:2rem;
+     background-color: rgb(0, 56, 63);
+     border-radius:10px;
+     border:3px solid black;
+     
+ }
+ 
+ .search input::placeholder{
+     color: #F6F5F2;
+     font-family:Parkinsans;
+     padding-left:30px;
+ }
+ 
+ .navbar img{
+     margin-right:50px;
+     height:100px;
+     width:100px;
+
+ }
+
+.desc{
+    display:flex;
+    background-color:rgba(56, 78, 114, 0.6);
+    border-radius:30px;
+    margin:30px;
+    align-items:center;
+    border:2px solid black;
+    box-shadow:0px 0px 15px rgb(8, 70, 114);
+}
+
+.desc h1{
+  font-family:Parkinsans;
+  font-weight:1000;
+  color:rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0, 0.6);
+  width:fit-content;
+  padding:15px;
+  border-radius:30px;
+  border-color:3px rgb(255, 255, 255) solid;
+  box-shadow:0px 0px 15px lightgray;
+  text-shadow:2px 1px black;
+  margin:10px;
+}
+
+.desc p{
+    background-color:rgba(0, 0, 0, 0.6);
+    font-family:Parkinsans;
+  font-weight:1000;
+  color:rgb(255, 255, 255);
+  font-size:15px;
+  width:fit-content;
+  padding:15px;
+  border-radius:30px;
+  border-color:3px rgb(255, 255, 255) solid;
+  box-shadow:0px 0px 15px lightgray;
+  text-shadow:2px 1px black;
+  margin:10px;
+  text-shadow:0px 0px 10px rgb(255, 255, 255);
+  
+}
+
+.desc img{
+    background-color:rgba(10, 0, 97, 0.1);
+    width:1000px;
+    border-radius:30px;
+    margin:15px;  
+    box-shadow:0px 0px 15px rgb(28, 110, 138);
+    border:2px solid black;
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}   
+ 
+.card p{
+    font-family:Parkinsans;
+    
+}
+.card{
+    background-color:rgb(0, 0, 0,0.7 );
+    margin:10px;
+    width:400px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:30px;
+    padding:20px;
+    box-shadow:0px 0px 15px black;
+    
+    
+
+
+}
+
+
+.ahref{
+    display:flex;
+    background-color:rgba(56, 78, 114, 0.6);
+    border-radius:30px;
+    margin:30px;
+    text-align: center;
+    border:2px solid black;
+    box-shadow:0px 0px 15px rgb(8, 70, 114);
+    padding:10px;
+}
+
+.card h1{
+   font-family:Parkinsans;
+   font-size:40px;
+   color:white;
+   text-shadow:3px 2px black;
+   background-color:rgba(0, 81, 134, 0.5);
+   margin:5px;
+   border-radius:30px;
+   font-weight:1000;
+   border:solid black 2px;
+   box-shadow:0px 0px 10px rgb(255, 255, 255);
+}
+
+.card .c11, .card .c22, .card .c33{
+   border:solid black 2px;
+   background-color:rgba(0, 12, 104, 0.6);
+   font-family:Parkinsans;
+   margin:10px;
+   margin-top:15px;
+   border-radius:30px;
+   padding:10px;
+   padding-left:17px;
+   padding-right:17px;
+   text-decoration:none;
+   color:white;
+   box-shadow:0px 0px 10px rgb(0, 58, 62);
+   text-shadow:0px 0px 15px rgb(0, 255, 242);
+   
+}
+
+.card .c1:hover, .card .c2:hover, .card .c3:hover{
+    animation: headShake ;
+   animation-duration:3s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+  }
+
+  .c1,.c2,.c3{
+    font-family:Parkinsans;
+    background-color:rgba(72, 128, 154, 0.4);
+    border-radius:30px;   
+    padding:10px;
+    color:white;
+    border:solid black 2px;
+    text-shadow:0px 0px 15px rgb(255, 255, 255);
+
+    box-shadow:0px 0px 10px rgb(0, 128, 137);
+  }
+
+
+
+  /* Steps  
+  menggunakan animate.css:
+  masukan link cdn di bagian head
+  berikan class di tag yang diinginkan
+  style:
+  .bounce {
+        animation: bounce;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        font-size: 3rem;
+        text-shadow: 2px 2px 8px #ff0000;
+    } */
