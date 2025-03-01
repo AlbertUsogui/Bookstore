@@ -162,7 +162,27 @@ body{
     font-size:15px;
  }
 
-.group{
+.group1{
+   display:flex;
+   background-color:rgba(83, 82, 88, 0.3);
+   box-shadow:0px 0px 15px black;
+   border-radius:30px;
+   margin:20px;
+   width:auto;
+   height:fit-content;
+   
+}
+.group2{
+   display:flex;
+   background-color:rgba(83, 82, 88, 0.3);
+   box-shadow:0px 0px 15px black;
+   border-radius:30px;
+   margin:20px;
+   width:auto;
+   height:fit-content;
+   
+}
+.group3{
    display:flex;
    background-color:rgba(83, 82, 88, 0.3);
    box-shadow:0px 0px 15px black;
@@ -205,7 +225,8 @@ body{
    border-radius:30px;
    width:auto;
    box-shadow:0px 0px 15px rgb(255, 255, 255);
-}
+   filter: drop-shadow(15px 5px 5px rgb(0, 0, 0,0.4));
+} 
 
 .name{
    font-weight:800;
@@ -290,3 +311,63 @@ body{
 
 }
 
+.group11{
+   font-size:40px;
+   
+   margin:10px;
+   background-color:rgba(60, 57, 77, 0.4);
+   color:white;
+   margin-left:auto;
+   margin-right:auto;
+   width:fit-content;
+   padding:20px;
+   padding-left:40px;
+   padding-right:40px;
+   text-align:right;
+   border:2px solid rgb(0, 0, 0);
+   font-family:Parkinsans;
+   border-radius:10px;
+   font-weight:500;
+   box-shadow:0px 0px 15px lightgray;
+   text-shadow:2px 1px rgb(0, 0, 0, 0.5);
+}
+.time{
+   margin:5px;
+   text-align:center;
+   background-color:rgba(0, 0, 0, 0.3);
+   padding:10px;
+   border-radius:10px;
+   border:2px rgb(0, 0, 0, 0.6) solid;
+   box-shadow:0px 0px 15px lightgray;
+}
+.butontime{
+   margin:10px;
+   height:40px;
+   width:500px;
+   text-align:center;
+   margin-left:auto;
+   margin-right:auto;
+   border-radius:10px;
+   background-color:rgba(0, 0, 0, 0.4);
+   color:white;
+   font-size:15px;
+   font-weight:600;
+   box-shadow:0px 0px 15px lightgray;
+   border:2px solid rgb(0, 0, 0, 0.6);
+}
+
+
+.buoon{
+  height:40px;
+  width:120px;
+  margin:20px;
+  background-color:rgb(255, 208, 0);
+  border-radius:10px;
+  font-family:Parkinsans;
+  border:solid black 2px;
+  box-shadow:0px 0px 15px rgb(255, 255, 255);
+}
+
+.buoon:hover{
+   background-color:rgba(255, 255, 255, 0.2);
+}

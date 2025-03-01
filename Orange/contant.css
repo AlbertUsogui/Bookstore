@@ -1,0 +1,322 @@
+.prim .Title{
+    color:white;
+    font-family:Parkinsans;
+    font-size: 65px;
+    font-weight:1000;
+    text-shadow:0px 0px 30px rgb(106, 106, 106);
+    
+}
+.prim .text1{
+    color:white;
+    font-family:Parkinsans;
+    font-size: 20px;
+    font-weight:1000;
+    text-shadow:0px 0px 10px white;
+    
+    
+}
+
+.prim {
+    display:flex;
+    
+}
+
+.text1{
+    background-color:rgba(0, 0, 0, 0.4);
+    height: 400px;
+    width:400px;
+    margin-left:100px;
+    margin:10px;
+    padding:20px;
+    text-align:center;
+    padding-bottom:50px;
+    border:solid 3px lightgray;
+    margin-top:70px;
+    box-shadow:0px 0px 15px lightgray;
+}
+
+.prim .second .title1{
+    color:lightgray;
+    font-family:Parkinsans;
+    font-size:40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.prim .second p{
+    color:lightgray;
+    font-family:Parkinsans;
+    font-size:20px;
+    font-weight:500;
+    text-align: center;
+    
+}
+
+.prim .second{
+    margin-left:30px;
+    background-color:rgba(0, 0, 0, 0.4);
+    padding:20px;
+    margin:20px;
+    width:1000px;
+    text-align:center;
+    border:solid 3px lightgray;
+    box-shadow:0px 0px 15px lightgray;
+}
+
+.prim input{
+    margin:10px;
+    height:50px;
+    width:300px;
+    border-radius:30px;
+    background-color:rgb(52, 52, 52);
+    border:solid 3px lightgray;
+    box-shadow:0px 0px 15px lightgray;
+    color:lightgray;
+    font-family:Parkinsans;
+    text-align:center;
+    font-weight:600;
+    font-size:15px;
+}
+
+.prim .inputspe{
+    
+    width:635px;
+}
+
+button{
+    height:30px ;
+    width:400px;
+    background-color:rgba(0, 0, 0, 0.26);
+    border-radius:30px;
+    border:solid 3px lightgray;
+    font-family:parkinsans;
+    color:lightgray;
+    text-shadow:0px 0px 15px lightgray;
+    box-shadow:0px 0px 15px lightgray;
+}
+
+.prim input::placeholder{
+    text-align:center;
+    font-family:parkinsans;
+    color:white;
+    text-shadow:0px 0px 5px lightgray;
+    
+    
+}
+
+button:hover{
+    background-color:rgb(142, 82, 82, 0.5);
+    color:white;
+}
+
+
+body{
+    background-image:URL("background.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position:left;
+}
+
+.navbar{
+    background-color:rgba(0, 30, 42, 0.7);
+    display:flex;
+    text-align:center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:40px;
+    height:30px;
+    width:auto;
+    border-radius:30px;
+    justify-content:space-around;
+    position:sticky;
+    top:1px;
+    border:solid rgb(0, 0, 0) 2px;
+    z-index:1;
+    
+ }
+ 
+ 
+ 
+ .text a{
+     color:#F6F5F2;
+     text-decoration:none;
+     font-family:Parkinsans;
+     gap:30px;
+     margin-left:10px;
+     margin-right:20px;
+     margin-top:10px;
+     font-size:17px;
+ 
+ }
+ 
+ a:hover{
+     color:#F6F5F2;
+     font-weight:bold;
+     font-family:Parkinsans;
+ }
+ 
+ 
+ 
+ .search input{
+     width: 20rem;
+     height:2rem;
+     background-color: rgb(0, 56, 63);
+     border-radius:10px;
+     border:3px solid black;
+     
+ }
+ 
+ .search input::placeholder{
+     color: #F6F5F2;
+     font-family:Parkinsans;
+     padding-left:30px;
+ }
+ 
+ .navbar img{
+     margin-right:50px;
+     height:100px;
+     width:100px;
+
+ }
+
+ .group11{
+    font-size:40px;
+    
+    margin:10px;
+    background-color:rgba(60, 57, 77, 0.4);
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    text-align:right;
+    border:2px solid rgb(0, 0, 0);
+    font-family:Parkinsans;
+    border-radius:10px;
+    font-weight:500;
+    box-shadow:0px 0px 15px lightgray;
+    text-shadow:2px 1px rgb(0, 0, 0, 0.5);
+}
+.time{
+    margin:5px;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.3);
+    padding:10px;
+    border-radius:10px;
+    border:2px rgb(0, 0, 0, 0.6) solid;
+    box-shadow:0px 0px 15px lightgray;
+}
+.butontime{
+    margin:10px;
+    height:40px;
+    width:500px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    background-color:rgba(0, 0, 0, 0.4);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    box-shadow:0px 0px 15px lightgray;
+    border:2px solid rgb(0, 0, 0, 0.6);
+}
+
+.butontime:hover{
+    margin:10px;
+    height:40px;
+    width:500px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    background-color:rgba(0, 0, 0, 0.4);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    box-shadow:0px 0px 15px lightgray;
+    border:2px solid rgb(0, 0, 0, 0.6);
+}
+
+.ahref{
+    display:flex;
+    background-color:rgba(56, 78, 114, 0.6);
+    border-radius:30px;
+    margin:30px;
+    text-align: center;
+    border:2px solid black;
+    box-shadow:0px 0px 15px rgb(8, 70, 114);
+    padding:10px;
+}
+
+.card h1{
+   font-family:Parkinsans;
+   font-size:40px;
+   color:white;
+   text-shadow:3px 2px black;
+   background-color:rgba(0, 81, 134, 0.5);
+   margin:5px;
+   border-radius:30px;
+   font-weight:1000;
+   border:solid black 2px;
+   box-shadow:0px 0px 10px rgb(255, 255, 255);
+}
+
+.card .c11, .card .c22, .card .c33{
+   border:solid black 2px;
+   background-color:rgba(0, 12, 104, 0.6);
+   font-family:Parkinsans;
+   margin:10px;
+   margin-top:15px;
+   border-radius:30px;
+   padding:10px;
+   padding-left:17px;
+   padding-right:17px;
+   text-decoration:none;
+   color:white;
+   box-shadow:0px 0px 10px rgb(0, 58, 62);
+   text-shadow:0px 0px 15px rgb(0, 255, 242);
+   
+}
+
+.card .c1:hover, .card .c2:hover, .card .c3:hover{
+    animation: headShake ;
+   animation-duration:3s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+  }
+
+  .c1,.c2,.c3{
+    font-family:Parkinsans;
+    background-color:rgba(72, 128, 154, 0.4);
+    border-radius:30px;   
+    padding:10px;
+    color:white;
+    border:solid black 2px;
+    text-shadow:0px 0px 15px rgb(255, 255, 255);
+
+    box-shadow:0px 0px 10px rgb(0, 128, 137);
+  }
+
+  
+  .card p{
+    font-family:Parkinsans;
+    
+}
+.card{
+    background-color:rgb(0, 0, 0,0.7 );
+    margin:10px;
+    width:400px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:30px;
+    padding:20px;
+    box-shadow:0px 0px 15px black;
+    
+    
+
+}

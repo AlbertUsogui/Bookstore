@@ -215,3 +215,48 @@ body{
 
     box-shadow:0px 0px 10px rgb(0, 128, 137);
   }
+
+  .group11{
+    font-size:40px;
+    
+    margin:10px;
+    background-color:rgba(60, 57, 77, 0.4);
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    text-align:right;
+    border:2px solid rgb(0, 0, 0);
+    font-family:Parkinsans;
+    border-radius:10px;
+    font-weight:500;
+    box-shadow:0px 0px 15px lightgray;
+    text-shadow:2px 1px rgb(0, 0, 0, 0.5);
+}
+.time{
+    margin:5px;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.3);
+    padding:10px;
+    border-radius:10px;
+    border:2px rgb(0, 0, 0, 0.6) solid;
+    box-shadow:0px 0px 15px lightgray;
+}
+.butontime{
+    margin:10px;
+    height:40px;
+    width:500px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    background-color:rgba(0, 0, 0, 0.4);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    box-shadow:0px 0px 15px lightgray;
+    border:2px solid rgb(0, 0, 0, 0.6);
+}

@@ -24,7 +24,7 @@ function btn(){
     let list=book[indexItems];
     let list1=book1[indexItems]
     text.textContent=list.judul;
-    image.src=list.image;
+    image.src=list.imagse;
     description.textContent=list.description;
     text1.textContent=list1.judul;
     image1.src=list1.image;
@@ -32,6 +32,8 @@ function btn(){
     let button = document.getElementById("flex");
     button.style.display="flex";
 }
+
+
 
 // let car=["honda","toyota","mercy"]
 // // console.log(car[3])
