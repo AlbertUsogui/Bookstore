@@ -1,0 +1,282 @@
+body{
+    background-image:URL("New\ Project\ \(100\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
+
+}
+.navbar{
+    display:flex;
+    gap:20px;
+    background-color:rgb(0, 0, 0, 0.6);
+    padding:20px;
+    align-items:center;
+    text-align:center;
+    border-radius:20px;
+    margin:5px;
+    border:2px rgb(35, 35, 35) solid;
+    box-shadow:0px 0px 7px white;
+}
+
+.navbar img{
+    height:70px;
+    width:70px;
+    margin-left:20px;
+    
+}
+
+.group{
+    display:flex;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text{
+    font-size:15px;
+    margin-left:30px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(85, 85, 85);
+    border-radius:10px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:parkinsans;
+    border:black solid 2px;
+}
+
+.buton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    background:linear-gradient(108deg, rgba(112,49,105,1) 11%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.buttton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(64,64,150,1) 35%, rgba(116,1,1,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.text:hover{
+    font-weight:600;
+    text-shadow:0px 0px 15px lightgray;
+}
+
+.content{
+    background-color:rgb(0, 0, 0, 0.6);
+    padding:15px;
+    margin:25px;
+    margin-top:35px;
+    border:2px rgb(35, 35, 35) solid;
+    border-radius:10px;
+    box-shadow:0px 0px 10px white;
+
+}
+.contentgroup{
+    display:flex;
+}
+
+
+
+.contentgroup  .grouping{
+   border:2px solid rgb(255, 255, 255);
+   margin:20px;
+   height:fit-content;
+   padding:30px;
+   box-shadow:0px 0px 30px lightgrey;
+   background-color:rgb(31, 31, 31, 0.6);
+   margin-top:70px;
+   transition: 0.6s;
+   border-radius:10px;
+
+}
+
+.grouping p{
+    font-family:Parkinsans;
+    text-align:center;
+    color:white;
+    margin:20px;
+}
+
+.grouping .title1{
+    font-size:40px;
+    font-family:Barlow;
+    font-weight:600;
+    text-shadow:2px 1px black;
+}
+
+.grouping .desc1{
+    margin-top:40px;
+    font-size:17px;
+    
+
+}
+
+.contentgroup .grouping:hover{
+    box-shadow:0px 0px 60px lightsteelblue;
+    margin-top:40px;
+    text-shadow:0px 0px 30px lightgray;
+}
+
+.titleclas{
+    text-align:center;
+    padding:5px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:rgb(0, 0, 0,0.3);
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px white solid;
+    margin-top:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px lightcyan;
+}
+
+.titleclas .heading{
+    font-size:25px;
+    font-family:Parkinsans;
+    font-weight:600;
+    color:white;
+    text-shadow:2px 1px black;
+
+}
+
+.title{
+    text-align:center;
+    font-family:Parkinsans;
+    color:white;
+    font-weight:600;
+    font-size:45px;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    /* background-color:rgb(31, 31, 31, 0.6); */
+    margin-bottom:0px;
+    text-shadow:2px 1px black;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+.webdesc{
+    display:flex;
+    margin:25px;
+
+}
+
+.rules{
+    width:1075px;
+    
+
+}
+
+.head, .headsec{
+    margin:15px;
+    font-family:Parkinsans;
+    color:white;
+}  
+
+.head{
+    font-size:22px;
+    font-weight:600;
+    text-shadow:1px 1px black;
+    
+}
+
+.headsec{
+    font-size:16px;
+    text-shadow:2px 1px black;
+
+}
+
+.grop{
+    border:2px rgb(105, 105, 105) solid;
+    border-radius:10px;
+    box-shadow:0px 0px 10px white;
+    background-color:rgb(0, 0, 0, 0.6);
+    margin-bottom:15px;
+    transition:0.6s;
+    padding:3px;
+}
+
+.extracontent .list{
+    border:2px rgb(105, 105, 105) solid;
+    border-radius:10px;
+    box-shadow:0px 0px 10px white;
+    background-color:rgb(0, 0, 0, 0.6);
+    font-size:20px;   
+    padding:20px;
+    font-family:parkinsans; 
+    color:white;
+    font-weight:1000;
+    text-shadow:2px 1px black;
+    transition:0.6s;
+}
+
+.extracontent{
+    margin-left:28px;
+    
+}
+
+.extragroup{
+    border:2px rgb(105, 105, 105) solid;
+    border-radius:10px;
+    box-shadow:0px 0px 10px white;
+    background-color:rgb(0, 0, 0, 0.6);
+    margin-top:30px;
+    padding:5px;
+    transition:0.6s;
+}
+
+.titlestu{
+    font-size:20px;
+    color:white;
+    text-align:center;
+    font-weight:700;
+    font-family:Parkinsans;
+}
+
+.descstu{
+    font-size:20px;
+    color:white;
+    text-align:center;
+    font-weight:700;
+    font-family:Parkinsans;
+}
+
+.extragroup:hover{
+    box-shadow:0px 0px 30px white;
+    text-shadow:0px 0px 20px white;
+}
+
+.grop:hover , .group p:hover{
+    box-shadow:0px 0px 30px white;
+
+}
+
+.extracontent .list:hover{
+    box-shadow:0px 0px 30px white;
+    text-shadow:0px 0px 20px white;
+}
+

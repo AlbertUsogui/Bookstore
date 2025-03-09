@@ -1,0 +1,383 @@
+body{
+    background-image:URL("New\ Project\ \(100\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
+
+}
+.navbar{
+    display:flex;
+    gap:20px;
+    background-color:rgb(0, 0, 0, 0.6);
+    padding:20px;
+    align-items:center;
+    text-align:center;
+    border-radius:20px;
+    margin:5px;
+    border:2px rgb(35, 35, 35) solid;
+    box-shadow:0px 0px 7px white;
+}
+
+.navbar img{
+    height:70px;
+    width:70px;
+    margin-left:20px;
+    
+}
+
+.group{
+    display:flex;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text{
+    font-size:15px;
+    margin-left:30px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(85, 85, 85);
+    border-radius:10px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:parkinsans;
+    border:black solid 2px;
+}
+
+.buton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    background:linear-gradient(108deg, rgba(112,49,105,1) 11%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.buttton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(64,64,150,1) 35%, rgba(116,1,1,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.text:hover{
+    font-weight:600;
+    text-shadow:0px 0px 15px lightgray;
+
+}
+
+
+
+ .best{
+    background-color:rgb(0, 0, 0,0.6);
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    padding:13px;
+    font-size:40px;
+    border-radius:10px;
+    font-family:Parkinsans;
+    font-weight:700;
+    color:white;
+    border:2px solid rgb(26, 26, 26);
+    box-shadow:0px 0px 15px white;
+    text-shadow:2px 1px black;
+}
+
+.grop1,.grop2,.grop3,.grop4,.grop5, .grop6, .grop7{
+    display:flex;
+    margin:10px;
+    background-color:rgb(0, 0, 0,0.6);
+    border:2px solid black;
+    border-radius:10px;
+    box-shadow:0px 0px 15px lightgray;
+    width:600px;
+    padding:10px;
+    padding-left:10px;
+    padding-right:60px;
+    transition:0.5s;
+
+}
+
+.grop1 img,.grop2 img,.grop3 img,.grop4 img,.grop5 img, .grop6 img,.grop7 img{
+    height:250px;
+    width:250px;
+    border-radius:10px;
+    margin:40px;
+}
+
+.test{
+    font-size:40px;
+    font-weight:800;
+    text-shadow:2px 1px black;
+}
+
+.grop1 p,.grop5 p,.grop2 p,.grop3 p,.grop4 p, .grop6 p, .grop7 p {
+    color:white;
+    font-family:parkinsans;
+    text-shadow:2px 1px black;
+}
+.student{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+}
+
+.tes{
+    margin:5px;
+    text-shadow:2px 1px black;
+    font-weight:400;
+}
+
+
+
+.grop1 button,.grop2 button,.grop3 button,.grop4 button,.grop5 button
+, .grop6 button, .grop7 button{
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:rgb(255, 255, 59);
+    font-family:Parkinsans;
+    border-radius:10px;
+    
+    font-size:18px;
+    text-align:center;
+    transition:0.5s;
+}
+
+.tes{
+    font-family:Parkinsans;
+    font-size:20px;
+}
+
+.row{
+    display:flex;
+    
+}
+
+.grop button:hover{
+   box-shadow:0px 0px 15px yellow;
+}
+
+.grop1:hover{
+        box-shadow:0px 0px 50px red;
+        transform: scale(1.02, 1.02);
+
+}
+
+.grop2:hover{
+    box-shadow:0px 0px 50px rgb(144, 0, 0);
+    transform: scale(1.02, 1.02);
+
+}
+.grop3:hover{
+    box-shadow:0px 0px 50px rgb(255, 157, 0);
+    transform: scale(1.02, 1.02);
+
+}
+.grop4:hover{
+    box-shadow:0px 0px 50px rgb(255, 242, 0);
+    transform: scale(1.02, 1.02);
+
+}
+.grop5:hover{
+    box-shadow:0px 0px 50px rgb(0, 255, 34);
+    transform: scale(1.02, 1.02);
+
+}
+
+.grop6:hover{
+    box-shadow:0px 0px 50px rgb(0, 200, 255);
+    transform: scale(1.02, 1.02);
+
+}
+
+.grop7:hover{
+    box-shadow:0px 0px 50px rgb(34, 0, 255);
+    transform: scale(1.02, 1.02);
+
+
+}
+
+.grop img{
+    border:2px solid black;
+    box-shadow:0px 0px 50px black;
+}
+
+
+.grop1 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+.grop2 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+.grop3 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+.grop4 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+.grop5 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+.grop6 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+.grop7 button:hover{
+    transform:scale(1.05,1.05);
+    box-shadow:0px 0px 15px yellow;
+}
+
+
+
+
+.popuptext{
+    background-color: rgba(46, 46, 46, 0.6);
+    padding: 30px;
+    border: 1px solid #888;
+    width: fit-content;
+    align-items:center;
+    border-radius:10px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.popuptext1{
+    display:flex;
+    align-items:center;
+}
+.popuptext img{
+    height:500px;
+    width:500px;
+    margin:10px;
+    border:2px solid rgb(0, 0, 0);
+    border-radius:10px;
+}
+
+.none{
+    
+    height:100%;
+    width:100%;
+    left: 0;
+  top: 0;
+  z-index: 1;
+  padding-top:20px;
+  padding-bottom:20px;
+  transition:0.3s;
+  display: none;
+  position: fixed;
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.7s;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+  background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.88);
+}
+
+.tetsst p{
+    font-family:Parkinsans;
+    margin:10px;
+    
+}
+
+.tiergrop {
+    margin:10px;
+    text-align:center;
+}
+
+.inside{
+    background-color:rgb(0, 0, 0,0.6);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    border:2px solid rgb(111, 111, 111);
+    
+}
+
+.groupingsub{
+    display:flex;
+    background-color:rgb(0, 0, 0,0.6);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    border:2px solid rgb(111, 111, 111);
+}
+
+.tetsst{
+    margin-left:20px;
+
+}
+
+.substu{
+    background-color:rgb(0, 0, 0,0.6);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    border:2px solid rgb(111, 111, 111);
+    font-weight:600;
+    font-size:20px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left:20px;
+  
+  
+}
+
+.close:hover,
+.close:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.namestu{
+    font-size:40px;
+    font-weight:1000;
+}
+
+.grstu{
+    font-size:20px;
+}
+
+.tierstu{
+    font-weight:600;
+}
+
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+
