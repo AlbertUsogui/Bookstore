@@ -1,0 +1,289 @@
+body{
+    background-image:URL("New\ Project\ \(100\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
+
+}
+.navbar{
+    display:flex;
+    gap:20px;
+    background-color:rgb(0, 0, 0, 0.6);
+    padding:20px;
+    align-items:center;
+    text-align:center;
+    border-radius:20px;
+    margin:5px;
+    border:2px rgb(35, 35, 35) solid;
+    box-shadow:0px 0px 7px white;
+}
+
+.navbar img{
+    height:70px;
+    width:70px;
+    margin-left:20px;
+    
+}
+
+.group{
+    display:flex;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text{
+    font-size:15px;
+    margin-left:30px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(85, 85, 85);
+    border-radius:10px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:parkinsans;
+    border:black solid 2px;
+}
+
+.buton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    background:linear-gradient(108deg, rgba(112,49,105,1) 11%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.buttton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(64,64,150,1) 35%, rgba(116,1,1,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.text:hover{
+    font-weight:600;
+    text-shadow:0px 0px 15px lightgray;
+
+}
+
+
+.group1, .group2, .group3, .group4, .group5{
+    margin:10px;
+    padding:10px;
+    background-color:rgb(0, 0, 0,0.6);
+    display:flex;
+    border-radius:10px;
+    border:2px solid rgb(115, 115, 115);
+    margin-top:30px;
+    transition:0.5s;
+}
+.img1{
+    height:400px;
+    width:400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  filter: drop-shadow(0px 0px 50px #ffffff);
+  border-radius:10px;
+}
+
+.title{
+    font-family:Parkinsans;
+    color:white;
+    font-size:30px;
+    font-weight:700;
+    background-color:rgb(41, 41, 41,0.6);
+    border:2px solid white;
+    padding:20px;
+    text-align:center;
+    margin-right:10px;
+    margin-top:20px;
+    border-radius:10px;
+    text-shadow:2px 1px black;
+
+}
+
+.desc{
+    padding:20px;
+    background-color:rgb(41, 41, 41,0.6);
+    border:2px solid white;
+    margin-right:10px;
+    margin-top:20px;
+    color:white;
+    font-family:parkinsans;
+    border-radius:10px;
+    font-size:14px;
+    text-shadow:2px 1px black;
+
+}
+
+.buttons .btn1{
+    height:45px;
+    width:430px;
+    margin:5px;
+    border-radius:10px;
+    font-family:Parkinsans;
+    font-weight:800;
+    background-color:#7b7b7b;
+    color:white;
+    transition:0.5s;
+
+}
+.buttons, .buttons1, .buttons2, .buttons3, .buttons4{
+    display:flex;
+    align-items: center;
+  justify-content: center;
+}
+
+ .img2{
+    height:400px;
+    width:400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  filter: drop-shadow(0px 0px 50px #47b6d4);
+  border-radius:10px;
+}
+
+.buttons1 .btn1{
+    height:45px;
+    width:430px;
+    margin:5px;
+    border-radius:10px;
+    font-family:Parkinsans;
+    font-weight:800;
+    background-color:rgb(84, 144, 187);
+    color:white;
+    transition:0.5s;
+
+}
+
+.buttons2 .btn1{
+    height:45px;
+    width:430px;
+    margin:5px;
+    border-radius:10px;
+    font-family:Parkinsans;
+    font-weight:800;
+    background-color:rgb(190, 29, 7);
+    color:white;
+    transition:0.5s;
+
+}
+
+.buttons3 .btn1{
+    height:45px;
+    width:430px;
+    margin:5px;
+    border-radius:10px;
+    font-family:Parkinsans;
+    font-weight:800;
+    background-color:rgb(19, 171, 64);
+    color:white;
+    transition:0.5s;
+
+}
+
+.buttons4 .btn1{
+    height:45px;
+    width:430px;
+    margin:5px;
+    border-radius:10px;
+    font-family:Parkinsans;
+    font-weight:800;
+    background-color:#e4ca03;
+    color:white;
+    transition:0.5s;
+}
+
+.img3{
+    height:400px;
+    width:400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  filter: drop-shadow(0px 0px 50px #a90505);
+  border-radius:10px;
+}
+.img4{
+    height:400px;
+    width:400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  filter: drop-shadow(0px 0px 50px #068532);
+  border-radius:10px;
+}
+.img5{
+    height:400px;
+    width:400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  filter: drop-shadow(0px 0px 50px #e4ca03);
+  border-radius:10px;
+}
+
+.group1:hover{
+   box-shadow:0px 0px 35px lightgray;
+}
+
+.buttons .btn1:hover{
+    box-shadow:0px 0px 25px rgb(254, 254, 254);
+
+}
+
+.buttons1 .btn1:hover{
+    box-shadow:0px 0px 25px rgb(0, 208, 255);
+
+}
+
+.buttons2 .btn1:hover{
+    box-shadow:0px 0px 25px rgb(255, 0, 0);
+
+}
+
+.buttons3 .btn1:hover{
+    box-shadow:0px 0px 25px rgb(0, 255, 34);
+
+}
+
+.buttons4 .btn1:hover{
+   box-shadow:0px 0px 25px yellow;
+}
+
+.group2:hover{
+   box-shadow:0px 0px 35px rgb(0, 170, 255);
+}
+.group3:hover{
+    box-shadow:0px 0px 35px rgb(255, 0, 0);
+
+}
+.group4:hover{
+    box-shadow:0px 0px 35px rgb(1, 231, 35);
+
+}
+.group5:hover{
+    box-shadow:0px 0px 35px rgb(213, 255, 4);
+
+}

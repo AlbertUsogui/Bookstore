@@ -1,0 +1,297 @@
+body{
+    background-image:URL("New\ Project\ \(100\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:auto;
+    width:auto;
+
+}
+.navbar{
+    display:flex;
+    gap:20px;
+    background-color:rgb(0, 0, 0, 0.6);
+    padding:20px;
+    align-items:center;
+    text-align:center;
+    border-radius:20px;
+    margin:5px;
+    border:2px rgb(35, 35, 35) solid;
+    box-shadow:0px 0px 7px white;
+}
+
+.navbar img{
+    height:70px;
+    width:70px;
+    margin-left:20px;
+    
+}
+
+.group{
+    display:flex;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text{
+    font-size:15px;
+    margin-left:30px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(85, 85, 85);
+    border-radius:10px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:parkinsans;
+    border:black solid 2px;
+}
+
+.buton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    background:linear-gradient(108deg, rgba(112,49,105,1) 11%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.buttton{
+    height:50px;
+    width:170px;
+    margin-left:20px;
+    color:white;
+    
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(64,64,150,1) 35%, rgba(116,1,1,1) 100%);
+    border-radius:20px;
+    font-size:15px;
+    font-family:parkinsans;
+    padding:10px;
+    text-align:center;
+}
+
+.text:hover{
+    font-weight:600;
+    text-shadow:0px 0px 15px lightgray;
+
+}
+
+.introduction{
+    margin:10px;
+    font-size:19px;
+    font-family:Barlow;
+    color:white;
+    margin-bottom:15px;
+}
+
+.clasintro{
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:rgb(0, 0, 0,0.3);
+    margin-left:auto;
+    margin-right:auto;
+    border:2px white solid;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px lightcyan;
+    transition:0.5s;
+
+    width:80%;
+}
+
+.teacherintro{
+    text-align:center;
+    font-family:Parkinsans;
+    color:white;
+    font-weight:600;
+    font-size:45px;
+    margin-left:auto;
+    margin-right:auto;
+    /* background-color:rgb(31, 31, 31, 0.6); */
+    margin-bottom:0px;
+    text-shadow:2px 1px black;
+    text-align:center;
+    padding:5px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:rgb(0, 0, 0,0.3);
+    width:fit-content;
+    border:2px white solid;
+    margin-top:20px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px lightcyan;
+    transition:0.5s;
+
+}
+
+.groping{
+    background-color:rgb(0, 0, 0, 0.6);
+    padding:15px;    
+    margin:10px;
+    box-shadow:0px 0px 10px white;
+    border:2px rgb(35, 35, 35) solid;
+    margin-top:30px;
+    transition:0.8s;
+    border-radius:10px;
+
+}
+
+.groping button{
+    background: linear-gradient(351deg, rgba(57,57,57,1) 0%, rgba(46,46,46,1) 28%, rgba(37,37,37,1) 51%, rgba(0,0,0,1) 100%);
+   width:80%;
+   margin:10px;
+   color:white;
+   font-size:20px;
+   font-weight:600;
+   padding:10px;
+   font-family:Parkinsans;
+   margin-left:142px;
+   text-align:center;
+   border-radius:10px;
+   margin-top:30px;
+   margin-bottom:20px;
+   border-radius:2px solid rgb(255, 255, 255);
+   box-shadow:0px 0px 15px rgb(255, 255, 255);
+   transition:0.5s;
+}
+
+.groping button:hover{
+    box-shadow:0px 0px 40px rgb(49, 49, 49);
+
+}
+
+.groping:hover{
+    box-shadow:0px 0px 25px lightgray;
+}
+
+.clasintro:hover{
+    box-shadow:0px 0px 30px lightgray;
+
+
+}
+.teacherintro:hover{
+    box-shadow:0px 0px 30px lightgray;
+
+}
+
+.popup{
+    background-color: rgba(46, 46, 46, 0.6);
+    padding: 30px;
+    border: 1px solid #888;
+    width: fit-content;
+    align-items:center;
+    border-radius:10px;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+.flex{
+    display:flex;
+}
+
+.profile img{
+   height:200px;
+   width:200px;
+   border:2px solid rgb(81, 81, 81);
+   border-radius:10px;
+   margin:10px;
+}
+
+.profile{
+    margin:12px;
+    background-color:rgb(0, 0, 0,0.6);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    border:2px solid rgb(111, 111, 111);
+    transition:0.5s;
+}
+
+.profile p{
+    margin:5px;
+    font-family:Parkinsans;
+    font-size:15px;
+    margin-left:10px;
+}
+
+.pop{
+    height:100%;
+    width:100%;
+    left: 0;
+  top: 0;
+  z-index: 1;
+  padding-top:20px;
+  padding-bottom:20px;
+  transition:0.3s;
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.7s;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+  background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.88);
+    overflow: auto;
+    position:fixed;
+    display:none;
+    
+}
+
+.textimag{
+    background-color:rgba(72, 72, 72, 0.5);
+    border-radius:10px;
+    border:2px solid rgb(75, 75, 75);
+    width:175px;
+    padding:15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin:10px;
+    box-shadow: 0px 0px 15px rgb(65, 65, 65);
+    height:110px;
+    transition:0.5s;
+}
+
+.profile:hover{
+    box-shadow:0px 0px 30px rgb(115, 115, 115);
+}
+
+.textimag .namee{
+    font-size:15px;
+    font-weight:600;
+}
+
+.textimag:hover{
+    text-shadow:0px 0px 25px lightgray;
+    box-shadow:0px 0px 15px rgb(108, 108, 108);
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
