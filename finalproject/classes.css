@@ -88,6 +88,8 @@ body{
     padding:10px;
     border-radius:10px;
     border:2px solid rgb(101, 101, 101);
+    transition:0.5s;
+
 }
 
 .greaterclas{
@@ -107,6 +109,8 @@ body{
     display:flex;
     box-shadow:0px 0px 10px rgb(255, 255, 255);
     margin-top:15px;
+    transition:0.5s;
+
 }
 
 .titleclas{
@@ -135,6 +139,8 @@ body{
     border:2px solid rgb(135, 135, 135);
     box-shadow:0px 0px 10px rgb(255, 255, 255);
     margin-top:15px;
+    transition:0.5s;
+
 
 }
 
@@ -155,6 +161,8 @@ body{
     border:2px solid rgb(135, 135, 135);
     box-shadow:0px 0px 10px rgb(255, 255, 255);
     margin-top:15px;
+    transition:0.5s;
+
 
 }
 
@@ -178,6 +186,7 @@ body{
     border:2px solid rgb(135, 135, 135);
     box-shadow:0px 0px 10px rgb(255, 255, 255);
     margin-top:15px;
+    transition:0.5s;
 
 }
 
@@ -190,7 +199,6 @@ body{
     background-color:rgb(41, 41, 41);
     font-family:parkinsans;
     color:white;
-
    font-size:17px;
 }
 
@@ -215,6 +223,11 @@ body{
 }
 
 .descdesc:hover{
+    box-shadow:0px 0px 25px lightgray;
+
+}
+
+.snames:hover{
     box-shadow:0px 0px 25px lightgray;
 
 }

@@ -7,3 +7,11 @@ sam = document.getElementById("none");
           span5.onclick = function() {
             sam.style.display = "none";
               }
+
+              function data(){
+                window.location.href = "../bookstore/bookstore.html"
+           }
+           
+           function data1(){
+               window.location.href = "../Orange/index.html"
+           }
